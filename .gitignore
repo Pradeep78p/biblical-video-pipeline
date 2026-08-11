@@ -1,0 +1,12 @@
+venv/
+__pycache__/
+*.pyc
+.env
+
+data/raw_videos/*
+data/raw_audio/*
+data/transcripts/*
+data/scene_manifests/*
+data/image_queries/*
+data/image_assets/*
+data/handoff/*
