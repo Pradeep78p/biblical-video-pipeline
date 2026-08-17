@@ -18,6 +18,9 @@ import argparse
 import json
 import sys
 from pathlib import Path
+from dotenv import load_dotenv
+
+load_dotenv()
 
 sys.path.append(str(Path(__file__).parent.parent))
 import config
